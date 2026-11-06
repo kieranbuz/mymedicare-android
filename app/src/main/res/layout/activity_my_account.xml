@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/acc_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".myAccount">
+
+    <TextView
+        android:id="@+id/accUsername_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/accUsername_Txt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/accMedicalRecord_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/accMedHeader_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/accMedHeader_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedForename_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedForename_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedSurname_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedSurname_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedDOB_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedDOB_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedHeight_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedHeight_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedWeight_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedWeight_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/accMedBloodType_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/accMedBloodType_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/accMedicalHistory_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/accMedicalHistory_Btn" />
+
+    <Button
+        android:id="@+id/accEditAccount_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/accEditAccount_Btn" />
+
+    <Button
+        android:id="@+id/accLogOut_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/accLogOut_Btn" />
+
+</LinearLayout>

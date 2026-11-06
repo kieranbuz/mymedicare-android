@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bp_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".bloodPressure">
+
+    <TextView
+        android:id="@+id/bpHeader_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="@string/bpHeader_Txt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textIsSelectable="false"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/bpVal1_Edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:height="75dp"
+            android:hint="@string/bpVal1_Edit"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/bpVal2_Edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:height="75dp"
+            android:hint="@string/bpVal2_Edit"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bpCal_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:height="125dp"
+        android:background="@drawable/button_border"
+        android:text="@string/bpCal_Btn"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/bpResult_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bpHeader2_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/bpHeader2_Txt"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/bpRiskType_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/bpRec_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textIsSelectable="false"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bpResult_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="100dp"
+            android:background="@drawable/button_border"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

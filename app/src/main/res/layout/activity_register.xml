@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reg_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="5dp"
+    android:paddingRight="30dp"
+    tools:context=".register">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regForename_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/forename"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regForename_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/forenameHint"
+            android:importantForAutofill="no"
+            android:inputType="textShortMessage|textPersonName|text"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regSurname_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/surname"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regSurname_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/surnameHint"
+            android:importantForAutofill="no"
+            android:inputType="textShortMessage|textPersonName|text"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regUsername_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/username"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regUsername_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/usernameHint"
+            android:importantForAutofill="no"
+            android:inputType="textShortMessage|text"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regEmail_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/email"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regEmail_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/emailHint"
+            android:importantForAutofill="no"
+            android:inputType="textWebEmailAddress|textEmailAddress"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regPassword_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/password"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regPassword_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwordHint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regConfirmPassword_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/confirmPassword"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regConfirmPassword_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirmPasswordHint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regAddress_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/address"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regAddress_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/addressHint"
+            android:importantForAutofill="no"
+            android:inputType="textLongMessage|text|textPostalAddress"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regPhone_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/phone"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regPhone_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/phoneHint"
+            android:importantForAutofill="no"
+            android:inputType="number|phone"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regDOB_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/dob"
+            android:textSize="14sp" />
+
+        <DatePicker
+            android:id="@+id/regDOB_Date"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="-20dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginEnd="-30dp"
+            android:layout_marginRight="-30dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textSize="14sp"
+            tools:targetApi="lollipop" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regHeight_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/height"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regHeight_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/heightHint"
+            android:importantForAutofill="no"
+            android:inputType="number|numberDecimal"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regWeight_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/weight"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/regWeight_Edit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/weightHint"
+            android:importantForAutofill="no"
+            android:inputType="number|numberDecimal"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/regBloodType_Txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/bloodType"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/regBloodType_DDL"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:entries="@array/bloodTypes"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/regRegisterAccount_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/regRegisterAccount_Btn" />
+
+</TableLayout>

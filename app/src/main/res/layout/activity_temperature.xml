@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tmp_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".temperature">
+
+    <TextView
+        android:id="@+id/tmpHeader_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="@string/tmpHeader_Txt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textIsSelectable="false"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/tmpVal_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:height="75dp"
+        android:hint="@string/tmpVal_Edit"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorPrimary"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:id="@+id/tmpCal_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:height="125dp"
+        android:background="@drawable/button_border"
+        android:text="@string/tmpCal_Btn"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/tmpResult_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tmpHeader2_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tmpHeader2_Txt"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tmpRiskType_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tmpRec_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textIsSelectable="false"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/tmpResult_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="100dp"
+            android:background="@drawable/button_border"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

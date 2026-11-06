@@ -1,0 +1,99 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">MyMediCare</string>
+    <!-- Drop down menu -->
+    <string name="mainMenu1">Home</string>
+    <string name="mainMenu2">Login</string>
+    <string name="mainMenu3">My Account</string>
+    <string name="mainMenu4">Medical History</string>
+    <string name="mainMenu5">Settings</string>
+    <!-- Main activity page -->
+    <string name="mainHeader_Txt">Welcome to MyMediCare</string>
+    <string name="mainHeader2_Txt">Please select one of the following options:</string>
+    <string name="mainTMP_Btn">Temperature</string>
+    <string name="mainBP_Btn">Blood Pressure</string>
+    <string name="mainHR_Btn">Heart-Rate</string>
+    <!-- Login page -->
+    <string name="logUser_Edit">Username</string>
+    <string name="logPass_Edit">Password</string>
+    <string name="logLogin_Btn">Login</string>
+    <string name="logReg_Btn">Register</string>
+    <!-- Medical History Page -->
+    <string name="medHisOp_Txt">Select Option:</string>
+    <string name="medHisOp_Btn1">Blood Pressure</string>
+    <string name="medHisOp_Btn2">Heart-Rate</string>
+    <string name="medHisOp_Btn3">Temperature</string>
+    <string name="medHisDateHeader_Txt">Date</string>
+    <string name="medHisTypeHeader_Txt1">Blood Pressure Level</string>
+    <string name="medHisTypeHeader_Txt2">Heart-Rate Level</string>
+    <string name="medHisTypeHeader_Txt3">Temperature Level</string>
+    <string name="medHisRiskHeader_Txt">Risk Level</string>
+    <!-- Heart-Rate check page -->
+    <string name="hrHeader_Txt">ENTER HEART-RATE BELOW:</string>
+    <string name="hrVal_Edit">Heart-Rate</string>
+    <string name="hrCal_Btn">Calculate Risk Level</string>
+    <string name="hrHeader2_Txt">Result</string>
+    <!-- Temperature check page -->
+    <string name="tmpHeader_Txt">ENTER TEMPERATURE BELOW:</string>
+    <string name="tmpVal_Edit">Temperature</string>
+    <string name="tmpCal_Btn">Calculate Risk Level</string>
+    <string name="tmpHeader2_Txt">Result</string>
+    <!-- Blood Pressure check page -->
+    <string name="bpHeader_Txt">ENTER BLOOD PRESSURE BELOW:</string>
+    <string name="bpVal1_Edit">Systolic</string>
+    <string name="bpVal2_Edit">Diastolic</string>
+    <string name="bpCal_Btn">Calculate Risk Level</string>
+    <string name="bpHeader2_Txt">Result</string>
+    <!-- My Account page -->
+    <string name="accUsername_Txt">Username</string>
+    <string name="accMedHeader_Txt">My Medical Details</string>
+    <string name="accMedForename_Txt">Forename: </string>
+    <string name="accMedSurname_Txt">Surname: </string>
+    <string name="accMedDOB_Txt">Date of Birth: </string>
+    <string name="accMedHeight_Txt">Height: </string>
+    <string name="accMedWeight_Txt">Weight: </string>
+    <string name="accMedBloodType_Txt">Blood Type: </string>
+    <string name="accMedicalHistory_Btn">View Medical History</string>
+    <string name="accEditAccount_Btn">Edit Account Details</string>
+    <string name="accLogOut_Btn">Log out</string>
+    <!-- Settings Page -->
+    <string name="setNoteTimer_Txt">Notification Timer: </string>
+    <string name="setEmergCont_Txt">Emergency Contact: </string>
+    <string name="setEmergCont_Edit">Phone Number</string>
+    <string name="setBackColour_Txt">Background Colour: </string>
+    <string name="setSave_Btn">Save Changes</string>
+    <!-- Register and Edit Account Pages -->
+    <string name="forename">Forename: </string>
+    <string name="forenameHint">Forename</string>
+    <string name="surname">Surname: </string>
+    <string name="surnameHint">Surname</string>
+    <string name="username">Username:</string>
+    <string name="usernameHint">Username</string>
+    <string name="email">Email: </string>
+    <string name="emailHint">Email</string>
+    <string name="password">Password: </string>
+    <string name="passwordHint">Password</string>
+    <string name="confirmPassword">Confirm Password: </string>
+    <string name="confirmPasswordHint">Confirm Password</string>
+    <string name="address">Address: </string>
+    <string name="addressHint">Address</string>
+    <string name="phone">Phone: </string>
+    <string name="phoneHint">Phone</string>
+    <string name="dob">Date of Birth: </string>
+    <string name="height">Height (CM): </string>
+    <string name="heightHint">Height</string>
+    <string name="weight">Weight (KG): </string>
+    <string name="weightHint">Weight</string>
+    <string name="bloodType">Blood Type: </string>
+    <string name="regRegisterAccount_Btn">Register Account</string>
+    <string name="editSaveChanges_Btn">Save Changes</string>
+    <!-- Risk values and strings -->
+    <string name="normalRiskType">Risk Type: Normal</string>
+    <string name="normalAction">Recommended Action: No Action Required</string>
+    <string name="lowRiskType">Risk Type: Low</string>
+    <string name="lowAction">Recommended Action: Take some additional measure</string>
+    <string name="lowButton">Read more about lowering blood Pressure</string>
+    <string name="highRiskType">Risk Type: High</string>
+    <string name="highAction">Recommended Action: Caution! Seek Further Medical Advice</string>
+    <string name="highButton">Contact Doctor/GP</string>
+</resources>

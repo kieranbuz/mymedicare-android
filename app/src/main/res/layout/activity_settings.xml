@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/set_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".settings">
+
+    <LinearLayout
+        android:id="@+id/setNoteTimer_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/setNoteTimer_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/setNoteTimer_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Spinner
+            android:id="@+id/setNoteTimer_DDL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:entries="@array/notificationTime" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setEmergCont_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/setEmergCont_Txt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/setEmergCont_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/setEmergCont_Edit"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:hint="@string/setEmergCont_Edit"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setBackColour_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/setBackColour_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/setBackColour_Txt"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Spinner
+            android:id="@+id/setBackColour_DDL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:entries="@array/colours" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setSave_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_border"
+        android:text="@string/setSave_Btn" />
+
+</LinearLayout>
